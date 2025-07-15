@@ -1,2 +1,44 @@
 # llm-book-code
-Official codebase for the book The Dance of Language Models: LLM Applications and Deployment.  Covers hands-on examples of fine-tuning, prompt engineering, RAG, agents, and LLMOps.
+
+> 《语言之舞：大语言模型代码实战与部署应用》官方配套代码仓库
+
+---
+
+## 📖 图书简介
+
+- **书名**：语言之舞：大语言模型代码实战与部署应用
+- **作者**：一个处女座的程序猿  
+- **出版时间**：2025 年中  
+- **写作耗时**：3 年沉淀，原稿 68 万字，出稿约 38 万字  
+
+---
+
+## ⭐︎ 本书五大特色
+
+1. **理论与实战共融**  
+   - 每章搭配精炼 Python 案例，从基础原理到高级应用全覆盖。  
+2. **内容全面系统**  
+   - 演进史→核心要素→构建流程→部署监控→未来趋势，一气呵成。  
+3. **多场景案例**  
+   - 支持 GPT‑4o、LLaMA‑3、ChatGLM‑3、GLM‑4、Qwen‑2 系列的微调、推理部署。  
+4. **工具链全景**  
+   - 涵盖 Transformers、LangChain、LlamaIndex、Docker、分布式训练。  
+5. **前沿增强技术**  
+   - RAG、ETA、Agent、PEFT 等高级技巧一网打尽。  
+
+---
+
+## 📚 章节概要
+
+1. **第 1 章：大语言模型发展史**  
+2. **第 2 章：LLMs 核心要素**（数据、架构、评估、优化）  
+3. **第 3 章：构建流程**（预训练→微调→推理）  
+4. **第 4 章：部署与监控**（Docker、Kubernetes、监控策略）  
+5. **第 5 章：微调与推理实战**  
+6. **第 6 章：企业级项目落地**  
+7. **第 7 章：提示工程基础**  
+8. **第 8 章：进阶增强技术**（RAG、ETA、Agent）  
+9. **第 9 章：常用训练/推理框架与提示库**  
+10. **第 10 章：挑战与未来方向**  
+
+---
