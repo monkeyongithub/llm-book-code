@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+文件用途：提供GLM-4聊天页面
+对应章节/小节：第5章 5.4.2.3 基于云服务器(4090-24G)实现一键部署开启服务并交互测试
+作者：NYY
+创建日期：2024-10-13（文件系统记录）
+运行方式：由配套服务提供页面
+备注：聊天界面示例
+-->
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GLM-4 聊天助手</title>
+</head>
+<body>
+    <h1>GLM-4 聊天助手</h1>
+    <div id="chat-history" aria-live="polite"></div>
+    <label for="user-input">消息</label>
+    <input type="text" id="user-input">
+    <button type="button" id="send-button">发送</button>
+    <p id="status" role="alert"></p>
+
+    <script>
+        const historyElement = document.getElementById("chat-history");
+        const inputElement = document.getElementById("user-input");
+        const statusElement = document.getElementById("status");
+
+        const sendButton = document.getElementById("send-button");
+        let conversationHistory = [];
+
+        function appendMessage(label, value) {
+            const paragraph = document.createElement("p");
+            const heading = document.createElement("strong");
+            heading.textContent = `${label}：`;
+            paragraph.append(heading, document.createTextNode(String(value ?? "")));
+            historyElement.append(paragraph);
+        }
+
+        // Step1、读取并检查读者在页面中输入的消息。
+        document.getElementById("send-button").addEventListener("click", async () => {
+            const message = inputElement.value.trim();
+            if (!message) return;
+            statusElement.textContent = "生成中……";
+            sendButton.disabled = true;
+
+            try {
+                // Step2、将消息提交给 Flask 的 /chat 接口。
+                const response = await fetch("/chat", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ message, history: conversationHistory }),
+                });
+                if (!response.ok) throw new Error("请求失败");
+                const data = await response.json();
+                if (!Array.isArray(data.history)) throw new Error("响应格式不正确");
+
+                // Step3、根据接口返回的对话历史更新页面。
+                conversationHistory = data.history;
+                statusElement.textContent = "";
+                historyElement.replaceChildren();
+                for (const pair of data.history) {
+                    if (!Array.isArray(pair) || pair.length < 2) continue;
+                    appendMessage("你", pair[0]);
+                    appendMessage("GLM-4", pair[1]);
+                }
+                inputElement.value = "";
+                historyElement.scrollTop = historyElement.scrollHeight;
+            } catch (error) {
+                statusElement.textContent = error.message;
+            } finally {
+                sendButton.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>

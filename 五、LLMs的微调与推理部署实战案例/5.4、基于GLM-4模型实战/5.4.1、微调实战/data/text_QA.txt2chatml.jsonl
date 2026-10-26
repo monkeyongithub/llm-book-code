@@ -1,0 +1,170 @@
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型的最新更新是什么？"}, {"role": "assistant", "content": "2024/09/06，在 GLM-4v-9B 模型上构建了 OpenAI API 兼容的服务端。"}]}
+{"messages": [{"role": "user", "content": "longcite-glm4-9b 模型及其数据集是什么时候开源的？"}, {"role": "assistant", "content": "longcite-glm4-9b 模型及其数据集 LongCite-45k 是在 2024/09/05 开源的。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型新增了什么功能？"}, {"role": "assistant", "content": "2024/09/04，GLM-4-9B-Chat 模型新增了使用带有 Lora adapter 的 vLLM 演示代码。"}]}
+{"messages": [{"role": "user", "content": "longwriter-glm4-9b 模型及其数据集是什么时候发布的？"}, {"role": "assistant", "content": "longwriter-glm4-9b 模型及其数据集 LongWriter-6k 是在 2024/08/15 发布的。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型依赖的 transformers 版本最近一次升级是什么时候？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 模型依赖的 transformers 版本最近一次升级是在 2024/08/12，升级到了 4.44.0 版本。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 开源模型的最新技术解读报告是什么时候发布的？"}, {"role": "assistant", "content": "最新技术解读报告是在 2024/07/24 发布的。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型适配了哪些技术？"}, {"role": "assistant", "content": "2024/07/16，GLM-4-9B-Chat 模型适配了 Ollama 和 Llama.cpp。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型的微调更新是什么时候发布的？"}, {"role": "assistant", "content": "GLM-4V-9B 模型的微调更新是在 2024/07/01 发布的。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型的部署教程有哪些更新？"}, {"role": "assistant", "content": "2024/06/28，我们与英特尔技术团队合作，改进了 GLM-4-9B-Chat 的 ITREX 和 OpenVINO 部署教程。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型仓库的运行文件和配置文件有哪些更新？"}, {"role": "assistant", "content": "2024/06/24，更新了模型仓库的运行文件和配置文件，支持 Flash Attention 2。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 系列开源模型是什么时候发布的？"}, {"role": "assistant", "content": "GLM-4-9B 系列开源模型是在 2024/06/05 发布的。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型的类型是什么？"}, {"role": "assistant", "content": "GLM-4-9B 模型的类型是 Base。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型的序列长度是多少？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 模型的序列长度是 128K。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型的下载链接在哪里？"}, {"role": "assistant", "content": "GLM-4V-9B 模型可以在 Huggingface、ModelScope 或 WiseModel 网站下载。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型在哪些评测任务中表现超越了 Llama-3-8B-Instruct？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 模型在 AlignBench、MT-Bench、IFEval、MMLU、C-Eval、GSM8K、MATH 和 HumanEval 评测任务中表现超越了 Llama-3-8B-Instruct。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型在预训练过程中加入了哪些数据？"}, {"role": "assistant", "content": "GLM-4-9B 模型在预训练过程中加入了部分数学、推理、代码相关的 instruction 数据。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型支持多少种语言？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 模型支持包括日语，韩语，德语在内的 26 种语言。"}]}
+{"messages": [{"role": "user", "content": "如何使用 transformers 后端进行 GLM-4-9B-Chat 模型的推理？"}, {"role": "assistant", "content": "使用 transformers 后端进行 GLM-4-9B-Chat 模型推理的示例代码可以在 basic_demo/trans_cli_demo.py 文件中找到。"}]}
+{"messages": [{"role": "user", "content": "如何使用 vLLM 后端进行 GLM-4-9B-Chat-1M 模型的推理？"}, {"role": "assistant", "content": "使用 vLLM 后端进行 GLM-4-9B-Chat-1M 模型推理的示例代码可以在 basic_demo 文件夹中找到。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型支持哪种多模态任务？"}, {"role": "assistant", "content": "GLM-4V-9B 模型支持视觉理解能力。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型是在什么时候发布的？"}, {"role": "assistant", "content": "GLM-4-9B 系列开源模型是在 2024 年 6 月 5 日发布的。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型支持哪些高级功能？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 模型支持网页浏览、代码执行、自定义工具调用（Function Call）和长文本推理（支持最大 128K 上下文）等高级功能。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 支持多少种语言？"}, {"role": "assistant", "content": "GLM-4-9B 增加了多语言支持，能够支持包括日语、韩语、德语在内的 26 种语言。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型在哪些方面表现出色？"}, {"role": "assistant", "content": "GLM-4V-9B 在中英文综合能力、感知推理、文字识别、图表理解等多方面多模态评测中表现出超越 GPT-4-turbo-2024-04-09、Gemini 1.0 Pro、Qwen-VL-Max 和 Claude 3 Opus 的卓越性能。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在 Berkeley Function Calling Leaderboard 上的表现如何？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 在 Berkeley Function Calling Leaderboard 上的整体准确率为 81.00%，AST Summary 得分为 80.26%，Exec Summary 得分为 84.40%，相关性得分为 87.92%。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat-1M 模型的最大上下文长度是多少？"}, {"role": "assistant", "content": "GLM-4-9B-Chat-1M 模型支持的最大上下文长度是 1M（约 200 万中文字符）。"}]}
+{"messages": [{"role": "user", "content": "在哪里可以体验 GLM-4-9B-Chat 模型？"}, {"role": "assistant", "content": "可以在 Huggingface Space 或者魔搭社区空间在线体验 GLM-4-9B-Chat 模型。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型的权重遵循什么协议？"}, {"role": "assistant", "content": "GLM-4 模型的权重需要遵循模型协议，而开源仓库的代码则遵循 Apache 2.0 协议。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 是什么类型的模型？"}, {"role": "assistant", "content": "GLM-4-9B 是智谱 AI 推出的最新一代预训练模型 GLM-4 系列中的开源版本，是一个大型语言模型 (LLM)。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 的主要功能是什么？"}, {"role": "assistant", "content": "GLM-4-9B 及其对话版本 GLM-4-9B-Chat 具备多轮对话、网页浏览、代码执行、自定义工具调用（Function Call）和长文本推理等高级功能，并支持多语言。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 的上下文长度是多少？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 支持最大 128K 上下文长度，而 GLM-4-9B-Chat-1M 则支持 1M 上下文长度。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型是什么类型的模型？"}, {"role": "assistant", "content": "GLM-4V-9B 是基于 GLM-4-9B 的多模态模型，具备视觉理解能力。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 的分辨率是多少？"}, {"role": "assistant", "content": "GLM-4V-9B 具备 1120 * 1120 高分辨率下的中英双语多轮对话能力。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 系列模型支持哪些语言？"}, {"role": "assistant", "content": "GLM-4-9B 系列模型支持包括日语、韩语、德语在内的 26 种语言。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 在哪些方面超越了 Llama-3-8B？"}, {"role": "assistant", "content": "GLM-4-9B 及其人类偏好对齐的版本 GLM-4-9B-Chat 在语义、数学、推理、代码和知识等多方面的数据集测评中均表现出超越 Llama-3-8B 的卓越性能。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 在多模态评测中表现如何？"}, {"role": "assistant", "content": "在中英文综合能力、感知推理、文字识别、图表理解等多方面多模态评测中，GLM-4V-9B 表现出超越 GPT-4-turbo-2024-04-09、Gemini 1.0 Pro、Qwen-VL-Max 和 Claude 3 Opus 的卓越性能。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在 AlignBench 上的得分是多少？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 在 AlignBench 上的得分为 7.01。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 在 MMLU 上的得分是多少？"}, {"role": "assistant", "content": "GLM-4-9B 在 MMLU 上的得分为 74.7。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在工具调用能力测试中表现如何？"}, {"role": "assistant", "content": "在 Berkeley Function Calling Leaderboard 上，GLM-4-9B-Chat 的整体准确率达到 81.00%，表现优异。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在多语言数据集 M-MMLU 上的表现如何？"}, {"role": "assistant", "content": "在 M-MMLU 数据集上，GLM-4-9B-Chat 的得分为 56.6，高于 Llama-3-8B-Instruct 的 49.6。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 在 MMBench-EN-Test 上的得分是多少？"}, {"role": "assistant", "content": "GLM-4V-9B 在 MMBench-EN-Test 上的得分为 81.1。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 系列开源模型是什么时候发布的？"}, {"role": "assistant", "content": "GLM-4-9B 系列开源模型于 2024年6月5日发布。"}]}
+{"messages": [{"role": "user", "content": "longcite-glm4-9b 模型是什么时候开源的？"}, {"role": "assistant", "content": "longcite-glm4-9b 模型以及数据集 LongCite-45k 于 2024年9月5日开源。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型适配了哪些平台？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 模型已适配 Ollama 和 Llama.cpp。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型依赖的 transformers 版本是多少？"}, {"role": "assistant", "content": "截至最新的更新，GLM-4-9B-Chat 模型依赖的 transformers 版本为 4.44.0。"}]}
+{"messages": [{"role": "user", "content": "在哪里可以找到 GLM-4-9B 模型的下载链接？"}, {"role": "assistant", "content": "GLM-4-9B 模型可以在 Huggingface, ModelScope 和 WiseModel 上下载。"}]}
+{"messages": [{"role": "user", "content": "如何使用 transformers 后端进行 GLM-4-9B-Chat 模型推理？"}, {"role": "assistant", "content": "代码示例在项目介绍中提供，需要安装 transformers 库并加载预训练模型和分词器。"}]}
+{"messages": [{"role": "user", "content": "如何使用 vLLM 后端进行 GLM-4-9B-Chat 模型推理？"}, {"role": "assistant", "content": "代码示例在项目介绍中提供，需要安装 vLLM 库并加载预训练模型和分词器。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型是否支持 vLLM 调用方式？"}, {"role": "assistant", "content": "GLM-4V-9B 模型暂不支持使用 vLLM 方式调用。"}]}
+{"messages": [{"role": "user", "content": "basic_demo 目录包含哪些内容？"}, {"role": "assistant", "content": "basic_demo 目录包含使用 transformers 和 vLLM 后端的交互代码、OpenAI API 后端交互代码以及 Batch 推理代码。"}]}
+{"messages": [{"role": "user", "content": "composite_demo 目录包含哪些内容？"}, {"role": "assistant", "content": "composite_demo 目录包含 GLM-4-9B-Chat 和 GLM-4V-9B 开源模型的完整功能演示代码，包含 All Tools 能力、长文档解读和多模态能力的展示。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型权重的使用需遵循什么协议？"}, {"role": "assistant", "content": "GLM-4 模型权重的使用需要遵循模型协议 (具体协议内容未在提供文本中说明)。"}]}
+{"messages": [{"role": "user", "content": "本开源仓库的代码遵循什么协议？"}, {"role": "assistant", "content": "本开源仓库的代码遵循 Apache 2.0 协议。"}]}
+{"messages": [{"role": "user", "content": "GLM-4项目最近一次更新是什么时候？"}, {"role": "assistant", "content": "GLM-4项目最近一次更新是在2024年9月6日。"}]}
+{"messages": [{"role": "user", "content": "GLM-4v-9B模型新增了什么功能？"}, {"role": "assistant", "content": "GLM-4v-9B模型新增了构建OpenAI API兼容的服务端的功能。"}]}
+{"messages": [{"role": "user", "content": "longcite-glm4-9b模型是做什么用的？"}, {"role": "assistant", "content": "longcite-glm4-9b模型是用于使LLMs能够在长上下文问答中生成细粒度引用的。"}]}
+{"messages": [{"role": "user", "content": "LongCite-45k数据集是用于什么目的的？"}, {"role": "assistant", "content": "LongCite-45k数据集是用于支持longcite-glm4-9b模型的，用于长上下文问答中生成细粒度引用。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat模型支持的最大上下文长度是多少？"}, {"role": "assistant", "content": "GLM-4-9B-Chat模型支持的最大上下文长度是128K。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat-1M模型支持的最大上下文长度是多少？"}, {"role": "assistant", "content": "GLM-4-9B-Chat-1M模型支持的最大上下文长度是1M。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B模型的分辨率是多少？"}, {"role": "assistant", "content": "GLM-4V-9B模型的分辨率是1120 * 1120。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B模型支持多少种语言？"}, {"role": "assistant", "content": "GLM-4-9B模型支持包括日语、韩语、德语在内的26种语言。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat模型在哪些任务上表现出超越Llama-3-8B的性能？"}, {"role": "assistant", "content": "GLM-4-9B-Chat模型在AlignBench、MT-Bench、IFEval、MMLU、C-Eval、GSM8K、MATH、HumanEval和NaturalCodeBench等任务上表现出超越Llama-3-8B的性能。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B模型在1M上下文长度下的大海捞针实验结果如何？"}, {"role": "assistant", "content": "在1M上下文长度下进行大海捞针实验，GLM-4-9B模型的具体结果没有在介绍中给出。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat模型在多语言数据集上的表现如何？"}, {"role": "assistant", "content": "GLM-4-9B-Chat模型在多语言数据集上的表现超过了Llama-3-8B-Instruct，例如在M-MMLU数据集上，GLM-4-9B-Chat的得分是56.6，而Llama-3-8B-Instruct的得分是49.6。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat模型在Berkeley Function Calling Leaderboard上的表现如何？"}, {"role": "assistant", "content": "GLM-4-9B-Chat模型在Berkeley Function Calling Leaderboard上的整体准确率是81.00%。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B模型在多模态任务上的评测结果如何？"}, {"role": "assistant", "content": "GLM-4V-9B模型在多模态任务上的评测结果超过了gpt-4-turbo-2024-04-09、Gemini 1.0 Pro、Qwen-VL-Max和Claude 3 Opus等模型。"}]}
+{"messages": [{"role": "user", "content": "如何使用transformers后端进行GLM-4-9B-Chat模型的推理？"}, {"role": "assistant", "content": "使用transformers后端进行GLM-4-9B-Chat模型的推理，需要设置GPU编号，使用AutoTokenizer和AutoModelForCausalLM从MODEL_PATH加载模型，然后将输入数据编码并传递给模型生成输出。"}]}
+{"messages": [{"role": "user", "content": "如何使用vLLM后端进行GLM-4-9B-Chat模型的推理？"}, {"role": "assistant", "content": "使用vLLM后端进行GLM-4-9B-Chat模型的推理，需要从模型名称创建一个LLM实例，设置tensor_parallel_size和max_model_len，然后使用SamplingParams设置采样参数，最后生成输出。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B模型支持使用vLLM方式调用吗？"}, {"role": "assistant", "content": "不，GLM-4V-9B模型暂不支持使用vLLM方式调用。"}]}
+{"messages": [{"role": "user", "content": "在哪里可以找到GLM-4-9B系列开源模型的使用和开发代码？"}, {"role": "assistant", "content": "可以在GLM-4项目的开源仓库中找到基础的GLM-4-9B使用和开发代码，包括basic_demo、composite_demo和fintune_demo等部分。"}]}
+{"messages": [{"role": "user", "content": "GLM-4模型的权重使用需要遵循什么协议？"}, {"role": "assistant", "content": "GLM-4模型的权重使用需要遵循模型协议。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型的训练数据规模有多大？"}, {"role": "assistant", "content": "文本中未明确说明训练数据规模。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型使用了哪些预训练技术？"}, {"role": "assistant", "content": "文本未详细说明具体的预训练技术，但暗示使用了长文本相关的技术。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型是否支持流式输出？"}, {"role": "assistant", "content": "文本未明确说明是否支持流式输出，但代码示例暗示可能支持。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型是如何处理图像输入的？"}, {"role": "assistant", "content": "文本未详细说明 GLM-4V-9B 模型的图像处理机制。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat-1M 模型的优势是什么？"}, {"role": "assistant", "content": "GLM-4-9B-Chat-1M 模型的优势在于其支持 1M 上下文长度，能够处理极长的文本。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型是否支持微调？"}, {"role": "assistant", "content": "是的，fintune_demo 目录提供了 PEFT (LORA, P-Tuning) 和 SFT 微调代码。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型与其他类似模型相比，有哪些独特的优势？"}, {"role": "assistant", "content": "GLM-4-9B 模型在多个基准测试中表现优异，尤其是在长文本处理和多模态能力方面。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型的推理速度如何？"}, {"role": "assistant", "content": "文本未提供具体的推理速度数据，但提到了使用英特尔 CPU/GPU 可高效部署。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型是否支持自定义指令微调？"}, {"role": "assistant", "content": "文本中未明确说明是否支持自定义指令微调，但提到了指令数据在预训练中的使用。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在 C-Eval 上的得分是多少？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 在 C-Eval 上的得分为 75.6。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 在 GSM8K 上的得分是多少？"}, {"role": "assistant", "content": "GLM-4-9B 在 GSM8K 上的得分为 84.0。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 在 SEEDBench_IMG 上的得分是多少？"}, {"role": "assistant", "content": "GLM-4V-9B 在 SEEDBench_IMG 上的得分为 76.8。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在 MATH 数据集上的表现如何？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 在 MATH 数据集上的得分为 50.6。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 在 HumanEval 上的得分是多少？"}, {"role": "assistant", "content": "GLM-4-9B 在 HumanEval 上的得分为 70.1。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 在哪些多模态基准测试中表现出色？"}, {"role": "assistant", "content": "GLM-4V-9B 在 MMBench-EN-Test, MMBench-CN-Test, SEEDBench_IMG, MMStar, MMMU, MME, HallusionBench, AI2D, OCRBench 等多模态基准测试中表现出色。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在 XWinograd 数据集上的表现如何？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 在 XWinograd 数据集上的得分为 73.1。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 在 FLORES 数据集上的表现如何？"}, {"role": "assistant", "content": "GLM-4-9B-Chat 在 FLORES 数据集上的得分为 28.8。"}]}
+{"messages": [{"role": "user", "content": "这些评测结果是如何获得的？"}, {"role": "assistant", "content": "文本未详细说明评测结果的获取方法，但暗示使用了标准的基准测试数据集和评估方法。"}]}
+{"messages": [{"role": "user", "content": "如何评估 GLM-4 模型在特定任务上的性能？"}, {"role": "assistant", "content": "需要根据具体任务选择合适的评估指标和数据集进行测试。"}]}
+{"messages": [{"role": "user", "content": "如何安装 GLM-4-9B 模型所需的依赖项？"}, {"role": "assistant", "content": "需要参考 basic_demo/requirements.txt 文件安装依赖项。"}]}
+{"messages": [{"role": "user", "content": "如何在 CPU 上运行 GLM-4-9B-Chat 模型？"}, {"role": "assistant", "content": "ModelScope 提供了 GLM-4-9B-Chat 模型的 CPU 版本演示。"}]}
+{"messages": [{"role": "user", "content": "如何在 GPU 上运行 GLM-4-9B-Chat 模型？"}, {"role": "assistant", "content": "代码示例中提供了 GPU 运行的配置，需要设置 CUDA_VISIBLE_DEVICES 环境变量。"}]}
+{"messages": [{"role": "user", "content": "如何使用 Flash Attention 2 加速 GLM-4-9B 模型的推理？"}, {"role": "assistant", "content": "需要更新模型配置文件并参考 basic_demo/trans_cli_demo.py 中的示例代码。"}]}
+{"messages": [{"role": "user", "content": "如何处理 GLM-4-9B 模型推理过程中出现的 OOM 错误？"}, {"role": "assistant", "content": "对于 GLM-4-9B-Chat-1M 模型，建议减少 max_model_len 或增加 tp_size，或开启 enable_chunked_prefill 和调整 max_num_batched_tokens。"}]}
+{"messages": [{"role": "user", "content": "如何使用 OpenAI API 与 GLM-4-9B 模型进行交互？"}, {"role": "assistant", "content": "basic_demo 目录包含了使用 OpenAI API 后端交互的代码示例。"}]}
+{"messages": [{"role": "user", "content": "如何进行 GLM-4-9B 模型的批量推理？"}, {"role": "assistant", "content": "basic_demo 目录包含了批量推理的代码示例。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型需要哪些额外的依赖库？"}, {"role": "assistant", "content": "需要安装 PIL 库来处理图像。"}]}
+{"messages": [{"role": "user", "content": "如何指定 GLM-4 模型推理使用的 GPU 编号？"}, {"role": "assistant", "content": "通过设置 CUDA_VISIBLE_DEVICES 环境变量来指定 GPU 编号。"}]}
+{"messages": [{"role": "user", "content": "模型部署需要哪些硬件配置和系统要求？"}, {"role": "assistant", "content": "具体硬件配置和系统要求请参考项目介绍中提供的链接。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型的最新更新是什么时候？"}, {"role": "assistant", "content": "最新的更新日期为 2024年9月6日。"}]}
+{"messages": [{"role": "user", "content": "如何获取 GLM-4 模型的最新版本？"}, {"role": "assistant", "content": "克隆最新的模型仓库。"}]}
+{"messages": [{"role": "user", "content": "如果遇到 GLM-4 模型的 bug，应该如何报告？"}, {"role": "assistant", "content": "文本未说明如何报告 bug。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 项目的未来发展规划是什么？"}, {"role": "assistant", "content": "文本未说明项目未来发展规划。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 项目团队会定期更新模型和代码吗？"}, {"role": "assistant", "content": "根据项目更新记录来看，项目团队会定期更新模型和代码。"}]}
+{"messages": [{"role": "user", "content": "在哪里可以找到 GLM-4 项目的技术报告？"}, {"role": "assistant", "content": "项目介绍中提到了技术报告的发布，但未提供具体的链接。"}]}
+{"messages": [{"role": "user", "content": "如何参与 GLM-4 项目的贡献？"}, {"role": "assistant", "content": "文本未说明如何参与贡献。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 项目是否提供社区支持？"}, {"role": "assistant", "content": "文本提到了魔搭社区，暗示可能提供社区支持。"}]}
+{"messages": [{"role": "user", "content": "模型仓库中包含哪些类型的演示代码？"}, {"role": "assistant", "content": "包含了使用 transformers 和 vLLM 后端的交互代码，OpenAI API 后端交互代码，以及批量推理代码。"}]}
+{"messages": [{"role": "user", "content": "除了官方提供的演示代码，还有哪些其他的资源可以学习 GLM-4 模型的使用？"}, {"role": "assistant", "content": "文本中提到了几个友情链接，例如 self-llm 和 chatglm.cpp，提供了额外的学习资源。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型支持哪些类型的多模态输入？"}, {"role": "assistant", "content": "目前支持图像输入。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B 模型处理长文本的能力如何？"}, {"role": "assistant", "content": "GLM-4-9B 模型支持最大 128K 上下文长度，具有较强的长文本处理能力。"}]}
+{"messages": [{"role": "user", "content": "longwriter-glm4-9b 模型的特性是什么？"}, {"role": "assistant", "content": "longwriter-glm4-9b 模型具备长文本输出能力，单轮对话大模型输出可超过 1 万 token。"}]}
+{"messages": [{"role": "user", "content": "longcite-glm4-9b 模型的用途是什么？"}, {"role": "assistant", "content": "longcite-glm4-9b 模型使 LLMs 能够在长上下文问答中生成细粒度引用。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型在长文本处理方面有哪些技术创新？"}, {"role": "assistant", "content": "项目介绍中提到了相关的技术报告，但未具体说明技术创新点。"}]}
+{"messages": [{"role": "user", "content": "如何使用 GLM-4 模型处理超过 128K 的文本？"}, {"role": "assistant", "content": "可以使用 GLM-4-9B-Chat-1M 模型，它支持 1M 上下文长度。"}]}
+{"messages": [{"role": "user", "content": "在处理长文本时，如何避免内存溢出问题？"}, {"role": "assistant", "content": "可以使用 vLLM 等优化技术，并根据实际情况调整参数，例如 max_model_len 和 tp_size。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型在长文本问答任务上的表现如何？"}, {"role": "assistant", "content": "在 LongBench-Chat 上进行了评测，但具体结果未在文本中提供。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的长文本处理能力与其他模型相比如何？"}, {"role": "assistant", "content": "文本中没有与其他模型进行直接比较。"}]}
+{"messages": [{"role": "user", "content": "GLM-4V-9B 模型在图像描述任务上的表现如何？"}, {"role": "assistant", "content": "文本中未提供具体的图像描述任务的评测结果。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型如何进行工具调用？"}, {"role": "assistant", "content": "支持自定义工具调用（Function Call）。"}]}
+{"messages": [{"role": "user", "content": "GLM-4-9B-Chat 模型支持哪些类型的工具？"}, {"role": "assistant", "content": "文本未明确说明支持哪些类型的工具。"}]}
+{"messages": [{"role": "user", "content": "如何自定义 GLM-4-9B-Chat 模型的工具？"}, {"role": "assistant", "content": "文本未详细说明如何自定义工具。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型是否提供 RESTful API？"}, {"role": "assistant", "content": "文本未明确说明是否提供 RESTful API。"}]}
+{"messages": [{"role": "user", "content": "如何将 GLM-4 模型集成到其他应用程序中？"}, {"role": "assistant", "content": "可以通过提供的代码示例和 API 接口进行集成。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的 API 调用频率限制是多少？"}, {"role": "assistant", "content": "文本未说明 API 调用频率限制。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的 API 调用需要付费吗？"}, {"role": "assistant", "content": "文本未说明 API 调用是否需要付费。"}]}
+{"messages": [{"role": "user", "content": "如何获取 GLM-4 模型的 API 密钥？"}, {"role": "assistant", "content": "文本未说明如何获取 API 密钥。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的 API 文档在哪里可以找到？"}, {"role": "assistant", "content": "文本未提供 API 文档链接。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的 API 支持哪些编程语言？"}, {"role": "assistant", "content": "文本未说明 API 支持哪些编程语言，但代码示例使用了 Python。"}]}
+{"messages": [{"role": "user", "content": "如何使用 LORA 方法微调 GLM-4-9B-Chat 模型？"}, {"role": "assistant", "content": "fintune_demo 目录提供了 LORA 微调代码。"}]}
+{"messages": [{"role": "user", "content": "如何使用 P-Tuning 方法微调 GLM-4-9B-Chat 模型？"}, {"role": "assistant", "content": "fintune_demo 目录提供了 P-Tuning 微调代码。"}]}
+{"messages": [{"role": "user", "content": "如何使用 SFT 方法微调 GLM-4-9B-Chat 模型？"}, {"role": "assistant", "content": "fintune_demo 目录提供了 SFT 微调代码。"}]}
+{"messages": [{"role": "user", "content": "微调 GLM-4 模型需要哪些数据？"}, {"role": "assistant", "content": "需要准备符合要求的微调数据集。"}]}
+{"messages": [{"role": "user", "content": "微调 GLM-4 模型需要多大的计算资源？"}, {"role": "assistant", "content": "文本未说明微调所需的计算资源。"}]}
+{"messages": [{"role": "user", "content": "如何评估微调后的 GLM-4 模型的性能？"}, {"role": "assistant", "content": "需要使用合适的评估指标和数据集进行测试。"}]}
+{"messages": [{"role": "user", "content": "LLaMA-Factory 框架支持哪些模型的微调？"}, {"role": "assistant", "content": "支持 GLM-4-9B-Chat 语言模型微调。"}]}
+{"messages": [{"role": "user", "content": "SWIFT 框架支持哪些模型的微调？"}, {"role": "assistant", "content": "支持 GLM-4-9B-Chat 和 GLM-4V-9B 模型微调。"}]}
+{"messages": [{"role": "user", "content": "Xorbits Inference 框架的主要功能是什么？"}, {"role": "assistant", "content": "性能强大且功能全面的分布式推理框架，轻松一键部署模型。"}]}
+{"messages": [{"role": "user", "content": "LangChain-ChatChat 的作用是什么？"}, {"role": "assistant", "content": "基于 Langchain 与 ChatGLM 等语言模型的 RAG 与 Agent 应用。"}]}
+{"messages": [{"role": "user", "content": "self-llm 提供了哪些关于 GLM-4 模型的教程？"}, {"role": "assistant", "content": "Datawhale 团队提供的 GLM-4-9B 系列模型使用教程。"}]}
+{"messages": [{"role": "user", "content": "chatglm.cpp 是什么？"}, {"role": "assistant", "content": "类似 llama.cpp 的量化加速推理方案，实现笔记本上实时对话。"}]}
+{"messages": [{"role": "user", "content": "在哪里可以找到 GLM-4 模型的完整项目列表？"}, {"role": "assistant", "content": "在项目介绍的“完整项目列表”部分。"}]}
+{"messages": [{"role": "user", "content": "ModelScope 提供了哪些 GLM-4 模型的演示？"}, {"role": "assistant", "content": "提供了 GLM-4-9B-Chat 模型的 CPU 和 vLLM 演示，以及 GLM-4V-9B 模型的演示。"}]}
+{"messages": [{"role": "user", "content": "Huggingface 上可以找到哪些 GLM-4 模型？"}, {"role": "assistant", "content": "GLM-4-9B, GLM-4-9B-Chat, GLM-4-9B-Chat-1M, GLM-4V-9B。"}]}
+{"messages": [{"role": "user", "content": "WiseModel 上可以找到哪些 GLM-4 模型？"}, {"role": "assistant", "content": "GLM-4-9B, GLM-4-9B-Chat, GLM-4-9B-Chat-1M, GLM-4V-9B。"}]}
+{"messages": [{"role": "user", "content": "英特尔技术团队对 GLM-4 模型做了哪些改进？"}, {"role": "assistant", "content": "改进了 GLM-4-9B-Chat 的 ITREX 和 OpenVINO 部署教程。"}]}
+{"messages": [{"role": "user", "content": "如何使用英特尔 CPU/GPU 部署 GLM-4-9B 模型？"}, {"role": "assistant", "content": "参考英特尔技术团队改进的部署教程。"}]}
+{"messages": [{"role": "user", "content": "项目介绍中提到的友情链接都提供了哪些资源？"}, {"role": "assistant", "content": "提供了模型微调框架、模型训练框架、分布式推理框架以及基于 Langchain 的应用等资源。"}]}
+{"messages": [{"role": "user", "content": "在哪里可以找到 GLM-4 模型的开源仓库？"}, {"role": "assistant", "content": "文本未提供具体的仓库链接。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 trust_remote_code=True 参数的作用是什么？"}, {"role": "assistant", "content": "允许加载远程代码，方便使用预训练模型。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 torch_dtype=torch.bfloat16 参数的作用是什么？"}, {"role": "assistant", "content": "使用 bfloat16 数据类型进行计算，可以节省内存和提高速度。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 low_cpu_mem_usage=True 参数的作用是什么？"}, {"role": "assistant", "content": "减少 CPU 内存使用量。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 device_map=\"auto\" 参数的作用是什么？"}, {"role": "assistant", "content": "自动将模型加载到可用的设备上。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 max_length 参数的作用是什么？"}, {"role": "assistant", "content": "设置生成的文本的最大长度。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 do_sample 参数的作用是什么？"}, {"role": "assistant", "content": "启用采样机制，生成更具多样性的文本。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 top_k 参数的作用是什么？"}, {"role": "assistant", "content": "设置采样时考虑的 top-k 个概率最高的 token。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 stop_token_ids 参数的作用是什么？"}, {"role": "assistant", "content": "设置停止生成的 token ID。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 temperature 参数的作用是什么？"}, {"role": "assistant", "content": "控制生成的文本的随机性。"}]}
+{"messages": [{"role": "user", "content": "代码示例中 tokenize=True 参数的作用是什么？"}, {"role": "assistant", "content": "将文本转换为 token。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的训练成本是多少？"}, {"role": "assistant", "content": "文本未提供训练成本信息。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的碳足迹是多少？"}, {"role": "assistant", "content": "文本未提供碳足迹信息。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的商业应用前景如何？"}, {"role": "assistant", "content": "文本未对商业应用前景进行分析。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的潜在风险是什么？"}, {"role": "assistant", "content": "文本未对潜在风险进行讨论。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的伦理问题有哪些？"}, {"role": "assistant", "content": "文本未对伦理问题进行讨论。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的未来改进方向是什么？"}, {"role": "assistant", "content": "文本未对未来改进方向进行说明。"}]}
+{"messages": [{"role": "user", "content": "如何评估 GLM-4 模型的公平性？"}, {"role": "assistant", "content": "文本未对公平性评估进行说明。"}]}
+{"messages": [{"role": "user", "content": "如何避免 GLM-4 模型生成有害内容？"}, {"role": "assistant", "content": "文本未对有害内容生成进行讨论。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 模型的知识截止日期是什么时候？"}, {"role": "assistant", "content": "文本未说明知识截止日期。"}]}
+{"messages": [{"role": "user", "content": "GLM-4 项目团队的联系方式是什么？"}, {"role": "assistant", "content": "文本未提供联系方式。"}]}
