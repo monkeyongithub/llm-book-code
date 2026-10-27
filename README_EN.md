@@ -9,7 +9,7 @@
 ## 📖 About the Book
 
 - **Title:** *The Dance of Language: A Complete Practical Guide to Large Language Model Applications* (《语言之舞：大语言模型应用实战全书》)
-- **Author:** 一个处女座的程序猿 (A Virgo Programmer)
+- **Author:** 一个处女座的程序猿
 - **Publication:** Mid-2025
 - **Writing:** Three years of work; a 680,000-character original manuscript and an approximately 380,000-character final manuscript
 
